@@ -3,9 +3,9 @@
 
 # 环境配置
 ## Project Structure 配置
-#### 1、Android Gradle Plugin Version:7.1.3
-#### 2、Gradle Version 7.2
-#### 3、Java Version 11.0.XX
+1、Android Gradle Plugin Version:7.1.3
+2、Gradle Version 7.2
+3、Java Version 11.0.XX
 
 
 ## build.gradle 配置
@@ -27,11 +27,11 @@
     org.gradle.java.home=对应java的本地目录
 ```
 
-# debug的操作步骤
-#### 1、创建 remote JVM debug（TestApt）， Use module classpath 是当前的 AbstractProcessor的module
-#### 2、./gradlew --stop 关闭进程锁定
-#### 3、./gradlew --daemon 进程锁定
-#### 4、打断点，debug remote JVM （TestApt）
-#### 5、clean build
-#### 6、debug app module
+# debug的操作步骤 
+1、创建 remote JVM debug（TestApt）， Use module classpath 是当前的 AbstractProcessor的module
+2、./gradlew --stop 关闭进程锁定
+3、./gradlew --daemon 进程锁定
+4、打断点，debug remote JVM （TestApt）
+5、clean build
+6、debug app module
 
